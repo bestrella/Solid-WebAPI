@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SolidApp.Models
+namespace SolidApp.Services.Models
 {
     public class Product
     {

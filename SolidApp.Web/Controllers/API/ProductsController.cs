@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using SolidApp.Models;
+using SolidApp.Services.Models;
 using SolidApp.Services;
 
 namespace SolidApp.Web.Controllers

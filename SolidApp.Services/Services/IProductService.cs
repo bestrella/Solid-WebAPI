@@ -1,4 +1,4 @@
-﻿using SolidApp.Models;
+﻿using SolidApp.Services.Models;
 using System;
 using System.Collections.Generic;
 
