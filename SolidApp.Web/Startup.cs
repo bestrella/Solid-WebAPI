@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using SolidApp.Services;
 
 namespace SolidApp.Web
 {
@@ -29,6 +30,9 @@ namespace SolidApp.Web
         {
             // Add framework services.
             services.AddMvc();
+
+            //INJECT SERVICE
+            services.AddTransient<IProductService>(p => ServiceFactory.CreateProductService());
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
